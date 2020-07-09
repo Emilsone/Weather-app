@@ -7,10 +7,11 @@
 body {
   height: 100vh;
   width: 100vw;
-  background: url(../image/weather.jpg);
+  background: url(../image/weatherbg.jpg);
   background-size: cover; /* <------ */
   background-repeat: no-repeat;
   /* background-position: center center;  */
+  font-family: 'Grenze Gotisch', cursive;
 }
 
 header {
@@ -30,6 +31,11 @@ header input {
   border: none;
   color: whitesmoke;
   background-color: rgba(217, 248, 219, 0.445);
+  margin-top:6%;
+  outline-color: transparent;
+  font-family: 'Grenze Gotisch', cursive;
+  font-size: 3.2rem;
+  text-align: center;
 }
 header input:focus {
   background-color: rgba(217, 248, 219, 0.781);
@@ -76,16 +82,18 @@ main {
   font-style: italic;
 }
 
-.card {
-  background-color: rgba(31, 19, 19, 0.692);
-  padding: 15px 60px;
+.card{
+  background-color: rgba(66, 41, 41, 0.692);
+  padding: 15px 90px;
   padding-bottom: 40px;
   box-shadow: black 5px 5px 12px;
+  margin-top: 3%;
 }
+
 
 @media (max-width: 424px) {
   header input {
-    font-size: 1rem;
+    font-size: 2.1rem;
     background-color: transparent;
     width: max-content;
     text-align: center;
