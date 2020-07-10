@@ -91,17 +91,19 @@ main {
 }
 
 
+
+
 @media (max-width: 424px) {
   header input {
     font-size: 2.1rem;
     background-color: transparent;
     width: max-content;
     text-align: center;
-    margin-top: 23%;
+    margin-top: 21%;
   }
 
 .card{
-  margin-top: 25%;
+  margin-top: 20%;
 }
   .location .city {
     font-size: 2rem;
