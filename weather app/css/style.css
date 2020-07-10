@@ -63,20 +63,20 @@ main {
   margin: 10% 0 10% 0;
 }
 
-.current .temp {
+.current-temperature .temp {
   font-size: 3.5rem;
   margin-bottom: 10%;
   text-shadow: 2px 3px 6px rgb(255, 198, 9);
 }
 
-.current .weather {
+.current-temperature .weather {
   color: rgba(54, 53, 53, 0.863);
   font-size: 1.5rem;
   margin-bottom: 10%;
   font-style: italic;
 }
 
-.current .hi-low {
+.current-temperature .degree{
   font-size: 1.5rem;
   color: rgb(0, 0, 0);
   font-style: italic;
@@ -108,10 +108,10 @@ main {
   .location .city {
     font-size: 2rem;
   }
-  .current .temp {
+  .current-temperature .temp {
     font-size: 3rem;
   }
-  .current .hi-low {
+  .current .degree {
     font-size: 1rem;
   }
 }
