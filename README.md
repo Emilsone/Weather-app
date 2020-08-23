@@ -1,2 +1,3 @@
 # Weather-app
-This is a weather app website that fetches a data from another website using api
+This is a weather app that fetches data using API
+
